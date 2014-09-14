@@ -1,19 +1,19 @@
 
 # -*- encoding: utf-8 -*-
 $:.push('lib')
-require "cmsapi/version"
+require "cms_api/version"
 
 Gem::Specification.new do |s|
-  s.name     = "CMSApi"
-  s.version  = Cmsapi::VERSION.dup
-  s.date     = "2014-09-13"
-  s.summary  = "blah Summary of project"
-  s.email    = "todo@project.com"
-  s.homepage = "http://todo.project.com/"
-  s.authors  = ['Me Todo']
+  s.name     = "cms_api"
+  s.version  = CmsApi::VERSION.dup
+  s.date     = "2014-09-14"
+  s.summary  = "blah: Summary of project"
+  s.email    = "blah@project.com"
+  s.homepage = "http://blah.project.com/"
+  s.authors  = ['Me blah']
 
   s.description = <<-EOF
-blah Long description
+blah: Long description
 EOF
 
   dependencies = [
